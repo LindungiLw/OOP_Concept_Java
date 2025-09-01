@@ -1,4 +1,4 @@
-package procedure_oriented_programming;
+package procedure_oriented_programming.material;
 
 public class ValueObject {
     int value;
