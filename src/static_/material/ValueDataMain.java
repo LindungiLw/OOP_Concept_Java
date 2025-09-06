@@ -1,4 +1,4 @@
-package static_;
+package static_.material;
 
 import procedure_oriented_programming.material.ValueData;
 

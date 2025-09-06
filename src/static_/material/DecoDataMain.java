@@ -1,4 +1,4 @@
-package static_;
+package static_.material;
 
 public class DecoDataMain {
     public static void main(String[] args) {

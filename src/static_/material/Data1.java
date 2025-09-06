@@ -1,4 +1,4 @@
-package static_;
+package static_.material;
 
 public class Data1 {
     private int value;

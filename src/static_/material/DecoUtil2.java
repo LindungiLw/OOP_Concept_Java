@@ -1,4 +1,4 @@
-package static_;
+package static_.material;
 
 public class DecoUtil2 {
     public static String deco(String str) {

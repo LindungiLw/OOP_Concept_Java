@@ -1,4 +1,4 @@
-package static_;
+package static_.material;
 
 public class DataCountMain1 {
     public static void main(String[] args) {

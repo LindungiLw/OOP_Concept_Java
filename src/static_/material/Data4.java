@@ -1,4 +1,4 @@
-package static_;
+package static_.material;
 
 public class Data4 {
     public String name;
