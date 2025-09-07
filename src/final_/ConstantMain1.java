@@ -1,0 +1,20 @@
+package final_;
+
+public class ConstantMain1 {
+    public static void main(String[] args) {
+        System.out.println("Max Number of Participants " + 1000);
+        int currentUserCount = 999;
+        process(currentUserCount++);
+        process(currentUserCount++);
+        process(currentUserCount++);
+    }
+    private static void process(int currentUserCount) {
+        System.out.println("Number of Participants:"
+                + currentUserCount);
+        if (currentUserCount > 1000) {
+            System.out.println("Register as a waitlist.");
+        } else {
+            System.out.println("Join the game.");
+        }
+    }
+}
