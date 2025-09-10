@@ -5,9 +5,11 @@ public class Item {
     private int price;
 
     public Item(String name, int price) {
-        System.out.println("Name" + name + ", Price: " + price);
+        this.name = name;
+        this.price = price;
     }
-    public void print() {
-        System.out.println("Book Print");
+
+    public int getPrice() {
+        return price;
     }
 }

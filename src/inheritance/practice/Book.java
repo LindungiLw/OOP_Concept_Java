@@ -10,6 +10,6 @@ public class Book extends Item {
         this.isbn = isbn;
     }
     public void print() {
-        System.out.println("Book Print");
+        System.out.println("- Author: " + author + ", ISBN: " + isbn);
     }
 }
