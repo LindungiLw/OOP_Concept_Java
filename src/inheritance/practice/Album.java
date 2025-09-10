@@ -8,6 +8,7 @@ public class Album extends Item{
         this.artist = artist;
     }
     public void print() {
+        super.print();
         System.out.println("- Artist: " + artist);
     }
 }

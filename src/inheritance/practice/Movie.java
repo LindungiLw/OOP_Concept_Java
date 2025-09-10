@@ -10,6 +10,7 @@ public class Movie extends Item{
         this.actor = actor;
     }
     public void print() {
+        super.print();
         System.out.println("- Director: " + director + ", Actor: " + actor);
     }
 }

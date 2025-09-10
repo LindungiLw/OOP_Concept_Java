@@ -9,7 +9,15 @@ public class Item {
         this.price = price;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getPrice() {
         return price;
+    }
+
+    public void print() {
+        System.out.println("Name: " + name + ", Price: " + price);
     }
 }
